@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Team19PlaceIts</string>
+    <string name="action_settings">Log out</string>
+    <string name="Active_list">Active list</string>
+    <string name="Completed_list">Completed list</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">title</string>
+    <string name="content">"content"</string>
+    <string name="repost_button">Repsot</string>
+    <string name="discard_button">Dicard</string>
+    <string name="close_button">Close</string>
+    <string name="schedule_button">Schedule</string>
+    <string name="login">login</string>
+    <string name="exit">exit</string>
+    
+    <!-- the following are for google plus login. -->
+    <string name="circles_title">Visible circles:</string>
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke</string>
+
+    <string name="status_sign_in_required">Sign-in required</string>
+    <string name="status_sign_in_error">Error signing in: %s</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_signing_in">Signing in with Google+…</string>
+    <string name="status_signed_out">Signed out</string>
+    <string name="status_revoke_access">Revoked access</string>
+    <string name="status_revoke_access_error">Error revoking access: %s</string>
+    <string name="signed_in_as">Signed in as %s</string>
+    
+    <!-- Used if there was an error loading the signed in user's name. -->
+    <string name="unknown_person">Unknown</string>
+    <string name="play_services_error">Google Play services is not available.  This application will close.</string>
+    <string name="close">Close</string>
+    <string name="profile_picture">User\'s profile picture.</string>
+    
+    
+    
+    <string name="str_btn_find">Find</string>
+    
+   <string name = "categories">Categories</string>
+    
+    <string-array name="place_type">
+    	<item>accounting</item>
+    	<item>airport</item>
+    	<item>amusement_park</item>
+    	<item>aquarium</item>
+    	<item>art_gallery</item>
+    	<item>atm</item>
+    	<item>bakery</item>
+    	<item>furniture_store</item>
+<item>gas_station</item>
+<item>general_contractor</item>
+<item>grocery_or_supermarket</item>
+<item>gym</item>
+<item>hair_care</item>
+<item>hardware_store</item>
+<item>health</item>
+<item>hindu_temple</item>
+<item>home_goods_store</item>
+<item>hospital</item>
+<item>insurance_agency</item>
+<item>jewelry_store</item>
+<item>laundry</item>
+<item>lawyer</item>
+<item>library</item>
+<item>liquor_store</item>
+<item>local_government_office</item>
+<item>locksmith</item>
+<item>lodging</item>
+<item>meal_delivery</item>
+<item>meal_takeaway</item>
+<item>mosque</item>
+<item>movie_rental</item>
+<item>movie_theater</item>
+<item>moving_company</item>
+<item>museum</item>
+<item>night_club</item>
+<item>painter</item>
+<item>park</item>
+<item>parking</item>
+<item>pet_store</item>
+<item>pharmacy</item>
+<item>physiotherapist</item>
+<item>place_of_worship</item>
+<item>plumber</item>
+<item>police</item>
+<item>post_office</item>
+<item>real_estate_agency</item>
+<item>restaurant</item>
+<item>roofing_contractor</item>
+<item>rv_park</item>
+<item>school</item>
+<item>shoe_store</item>
+<item>shopping_mall</item>
+<item>spa</item>
+<item>stadium</item>
+<item>storage</item>
+<item>store</item>
+<item>subway_station</item>
+<item>synagogue</item>
+<item>taxi_stand</item>
+<item>train_station</item>
+<item>travel_agency</item>
+<item>university</item>
+<item>veterinary_care</item>
+<item>zooaccounting</item>
+
+	</string-array>
+
+
+
+
+
+
+<!-- 
+    	<item>bank</item>
+    	<item>bar</item>
+    	<item>beauty_salon</item>
+    	<item>bicycle_store</item>
+    	<item>book_store</item>
+    	<item>bowling_alley</item>
+    	<item>bus_station</item>
+    	<item>cafe</item>
+    	<item>campground</item>
+    	<item>car_dealer</item>
+    	<item>car_rental</item>
+    	<item>car_repair</item>
+    	<item>car_wash</item>
+    	<item>casino</item>
+    	<item>cemetery</item>
+    	<item>church</item>
+    	<item>city_hall</item>
+    	<item>clothing_store</item>
+    	<item>convenience_store</item>
+    	<item>courthouse</item>
+    	<item>dentist</item>
+    	<item>department_store</item>
+    	<item>doctor</item>
+    	<item>electrician</item>
+		<item>electronics_store</item>
+		<item>embassy</item>
+		<item>establishment</item>
+		<item>finance</item>
+		<item>fire_station</item>
+		<item>florist</item>
+		<item>food</item>
+		<item>funeral_home</item>
+		<item>funeral_home</item>	
+furniture_store
+gas_station
+general_contractor
+grocery_or_supermarket
+gym
+hair_care
+hardware_store
+health
+hindu_temple
+home_goods_store
+hospital
+insurance_agency
+jewelry_store
+laundry
+lawyer
+library
+liquor_store
+local_government_office
+locksmith
+lodging
+meal_delivery
+meal_takeaway
+mosque
+movie_rental
+movie_theater
+moving_company
+museum
+night_club
+painter
+park
+parking
+pet_store
+pharmacy
+physiotherapist
+place_of_worship
+plumber
+police
+post_office
+real_estate_agency
+restaurant
+roofing_contractor
+rv_park
+school
+shoe_store
+shopping_mall
+spa
+stadium
+storage
+store
+subway_station
+synagogue
+taxi_stand
+train_station
+travel_agency
+university
+veterinary_care
+zooaccounting
+airport
+amusement_park
+aquarium
+art_gallery
+atm
+bakery
+bank
+bar
+beauty_salon
+bicycle_store
+book_store
+bowling_alley
+bus_station
+cafe
+campground
+car_dealer
+car_rental
+car_repair
+car_wash
+casino
+cemetery
+church
+city_hall
+clothing_store
+convenience_store
+courthouse
+dentist
+department_store
+doctor
+electrician
+electronics_store
+embassy
+establishment
+finance
+fire_station
+florist
+food
+funeral_home
+furniture_store
+gas_station
+general_contractor
+grocery_or_supermarket
+gym
+hair_care
+hardware_store
+health
+hindu_temple
+home_goods_store
+hospital
+insurance_agency
+jewelry_store
+laundry
+lawyer
+library
+liquor_store
+local_government_office
+locksmith
+lodging
+meal_delivery
+meal_takeaway
+mosque
+movie_rental
+movie_theater
+moving_company
+museum
+night_club
+painter
+park
+parking
+pet_store
+pharmacy
+physiotherapist
+place_of_worship
+plumber
+police
+post_office
+real_estate_agency
+restaurant
+roofing_contractor
+rv_park
+school
+shoe_store
+shopping_mall
+spa
+stadium
+storage
+store
+subway_station
+synagogue
+taxi_stand
+train_station
+travel_agency
+university
+veterinary_care
+zoo  
+   -->  
+
+</resources>

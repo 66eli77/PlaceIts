@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:gravity="bottom"
+    android:background ="#80444444"   >
+   <!--  
+   <TextView
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="stuff about the notification" 
+   android:layout_weight="0"
+   />
+    -->
+   <!-- Add three buttons and the corner Button -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="#80444444"
+        android:gravity="center|bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:onClick="repostPostIt"
+            android:text="@string/repost_button"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:onClick="discardPostIt"
+            android:text="@string/discard_button"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/close1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:onClick="closePostIt"
+            android:text="@string/close_button"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
